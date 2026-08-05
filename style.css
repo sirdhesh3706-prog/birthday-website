@@ -3,7 +3,8 @@ function checkPass(){
 let pass=document.getElementById("passcode").value;
 
 if(pass=="1507"){
-alert("Welcome Badshahhh 🫠🥹");
+alert("Welcome Badshahhh 🫂🥹");
+window.location.href="cake.html";
 }
 else{
 alert("Wrong Passcode 😭🙄");
