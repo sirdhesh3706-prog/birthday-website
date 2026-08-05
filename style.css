@@ -4,7 +4,7 @@ let pass=document.getElementById("passcode").value;
 
 if(pass=="1507"){
 alert("Welcome Badshahhh 🫂🥹");
-window.location.href="cake.html";
+window.location = "cake.html";
 }
 else{
 alert("Wrong Passcode 😭🙄");
