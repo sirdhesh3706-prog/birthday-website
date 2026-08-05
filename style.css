@@ -1,1 +1,12 @@
+function checkPass(){
 
+let pass=document.getElementById("passcode").value;
+
+if(pass=="1507"){
+alert("Welcome Badshahhh 🫠🥹");
+}
+else{
+alert("Wrong Passcode 😭🙄");
+}
+
+}
