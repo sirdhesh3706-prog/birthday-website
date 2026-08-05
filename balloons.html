@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Balloons 🎈</title>
+
+<style>
+body{
+margin:0;
+overflow:hidden;
+background:linear-gradient(#87CEEB,#ffffff);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+font-family:Arial,sans-serif;
+}
+
+h1{
+color:#ff4081;
+text-align:center;
+font-size:40px;
+z-index:10;
+}
+
+.balloon{
+position:absolute;
+bottom:-150px;
+font-size:60px;
+animation:float 8s linear infinite;
+}
+
+@keyframes float{
+0%{
+transform:translateY(0);
+}
+100%{
+transform:translateY(-120vh);
+}
+}
+</style>
+</head>
+
+<body>
+
+<h1>Happy Birthday Badshahhh 🎉🎈</h1>
+
+<div class="balloon" style="left:10%;animation-delay:0s;">🎈</div>
+<div class="balloon" style="left:25%;animation-delay:1s;">🎈</div>
+<div class="balloon" style="left:40%;animation-delay:2s;">🎈</div>
+<div class="balloon" style="left:55%;animation-delay:3s;">🎈</div>
+<div class="balloon" style="left:70%;animation-delay:4s;">🎈</div>
+<div class="balloon" style="left:85%;animation-delay:5s;">🎈</div>
+
+<script>
+setTimeout(function(){
+window.location.href="gallery.html";
+},5000);
+</script>
+
+</body>
+</html>
